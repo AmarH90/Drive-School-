@@ -1,0 +1,82 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driving School Alex</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'site/style.css'%}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+    
+    <style>
+        .div-main{
+            width: 1000px;
+            height: auto;
+            margin-left: 100px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+            display: block;
+        }
+        .div-tr{
+            height: auto;
+            padding: 5px;
+        }
+        .ul-main{
+            text-align: center;
+        }
+        .div-li{
+            padding-left: 10px;
+            padding-top: 20px;
+        }
+    </style>
+
+
+  
+</head>
+<body>
+    <div class="top">
+        <div class="navbar">
+            <div class="cname">
+                <i class="fa fa-university"></i> &nbsp;&nbsp;<span class="f">DRIVE ALEX</span> 
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="/Drive-school"><span class="w">Home</span></a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/Teachers">Teachers</a></li>
+                    <li><a href="/Gallery">Gallery</a></li>
+                    <li><a href="/About">About us</a></li>
+                    <li><a href="/Contact">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="div-main">
+        <h1>Here are some of our best  students</h1>
+        <p>List of Best students on our drive alex school this students persorm in best way  at time of school and our achool drive alex is pround to have them </p>
+        <div class="div-tr"> 
+            {% for call_reports in call_report %}
+                <ul class="ul-main">
+                    <li class="div-li">Teacher: <br>{{ call_reports.teacher }}</li>
+                    <li class="div-li">Student Name: <br>{{ call_reports.student_name }}</li>
+                    <li class="div-li">Date: <br>{{ call_reports.year_of_report }}</li>
+                    <li class="div-li">City driving: <br>{{ call_reports.city_driving }}</li>
+                    <li class="div-li">Suburbs driving: <br>{{ call_reports.suburbs_driving }}</li>
+                    <li class="div-li">Vehicle parking: <br>{{ call_reports.vehicle_parking }}</li>
+                    <li class="div-li">Driving behavior: <br>{{ call_reports.driving_behavior }}</li>
+                </ul>
+            {% endfor %}
+        </div>
+    </div>
+    <footer>
+        <h4>COPYRIGHT &COPY; Amar_H This page is for education about creating pages. This page is part of the Django Education Project</h4>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,90 @@
+
+{% load static %}
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Driving School Alex</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <link rel="stylesheet" href="{% static 'site/style.css'%}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+        <style>
+            .div-main{
+                width: 1000px;
+                height: auto;
+                margin-left: 100px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 20px;
+                display: block;
+            }
+            .div-1{
+                width: 500px;
+                height: auto;
+                display: inline-block;
+                padding: 5px;
+            }
+            .div-2{
+                margin-top: 100px;
+                margin-bottom: 100px;
+                width: 800px;
+                haight: auto;
+                display: inline-block;
+            }
+            .side-img{
+                height: 49%;
+                float: right;
+               
+            }
+
+            .side-img-2{
+                width: 450px;
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <div class="top">
+            <div class="navbar">
+                <div class="cname">
+                    <i class="fa fa-university"></i> &nbsp;&nbsp;<span class="f">DRIVE ALEX</span> 
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="/Drive-school">Home</a></li>
+                        <li><a href="/services">Services</a></li>
+                        <li><a href="/Teachers">Teachers</a></li>
+                        <li><a href="/Gallery">Gallery</a></li>
+                        <li><a href="/About"><span class="w">About us</span></a></li>
+                        <li><a href="/Contact">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="div-main">
+            <div class="div-1">
+                <h1>About us</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed incidunt temporibus ullam voluptatibus placeat eius sint, quisquam ex perferendis saepe repellat libero cumque amet, eos fugit excepturi quasi. Veritatis, neque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed incidunt temporibus ullam voluptatibus placeat eius sint, quisquam ex perferendis saepe repellat libero cumque amet, eos fugit excepturi quasi. Veritatis, neque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed incidunt temporibus ullam voluptatibus placeat eius sint, quisquam ex perferendis saepe repellat libero cumque amet, eos fugit excepturi quasi. Veritatis, neque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed incidunt temporibus ullam voluptatibus placeat eius sint, quisquam ex perferendis saepe repellat libero cumque amet, eos fugit excepturi quasi. Veritatis, neque!</p>
+            </div>
+            <img class="side-img" src="{% static '/img-library/Auto24.jpg'  %}" alt="side-img">
+            <div class="div-2">
+                    <h1>How we have started</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed incidunt temporibus ullam voluptatibus placeat eius sint, quisquam ex perferendis saepe repellat libero cumque amet, eos fugit excepturi quasi. Veritatis, neque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed incidunt temporibus ullam voluptatibus placeat eius sint, quisquam ex perferendis saepe repellat libero cumque amet, eos fugit excepturi quasi. Veritatis, neque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed incidunt temporibus ullam voluptatibus placeat eius sint, quisquam ex perferendis saepe repellat libero cumque amet, eos fugit excepturi quasi. Veritatis, neque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed incidunt temporibus ullam voluptatibus placeat eius sint, quisquam ex perferendis saepe repellat libero cumque amet, eos fugit excepturi quasi. Veritatis, neque!</p>
+            </div>
+            <div class="div-2">
+                <h1>Why we du this </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed incidunt temporibus ullam voluptatibus placeat eius sint, quisquam ex perferendis saepe repellat libero cumque amet, eos fugit excepturi quasi. Veritatis, neque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed incidunt temporibus ullam voluptatibus placeat eius sint, quisquam ex perferendis saepe repellat libero cumque amet, eos fugit excepturi quasi. Veritatis, neque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed incidunt temporibus ullam voluptatibus placeat eius sint, quisquam ex perferendis saepe repellat libero cumque amet, eos fugit excepturi quasi. Veritatis, neque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed incidunt temporibus ullam voluptatibus placeat eius sint, quisquam ex perferendis saepe repellat libero cumque amet, eos fugit excepturi quasi. Veritatis, neque!</p>
+            </div>  
+        </div>
+           
+    </body>
+    <footer>
+        <h4>COPYRIGHT &COPY; Amar_H This page is for education about creating pages. This page is part of the Django Education Project</h4>
+    </footer>
+            
+</html>

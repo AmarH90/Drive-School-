@@ -1,0 +1,352 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    
+
+}
+
+.top{
+    height: 80px;
+}
+.navbar{
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cname{
+    width: 30%;
+    background-color: white;
+    
+}
+.menu{
+    width: 70%;
+    
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 50px;
+
+}
+.cname i{
+    font-size: 36px;
+    margin-left: 10px;
+    margin-top: 20px;
+    color:  rgb(255, 166, 0);
+   
+
+}
+.f{
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+ul li a{
+    font-weight: bold;
+    color: black;
+}
+ul li a:hover{
+    color: rgb(199, 136, 1);
+    
+}
+
+.banner{
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.side-img{
+    height: 80vh;
+    float: right;
+    
+}
+.banner2{
+    width: 35%;
+    height: 50vh;
+    float: left;
+    margin-left: 100px;
+    margin-top: 120px;
+    background-color: rgba(235, 226, 226, 0.425);
+    padding: 20px 30px;
+}
+.banner2 h1{
+    font-size: 4em;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+.banner2 h2{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.banner2 p{
+    font-size: 15px;
+    text-align: justify;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.banner2 button{
+    width:40%;
+    height:60px;
+    margin-top: 20px;
+    background-color: rgb(255, 209, 5);
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 50px;
+    transition: 0.50s;
+}
+.banner2 button:hover{
+    color: white;
+    background-color: rgb(190, 157, 5);
+    transition: 0.50s;
+}
+
+
+.w{
+    background-color: rgb(255, 209, 5);
+    box-shadow: 1px 1px 1px black;
+    padding: 20px 20px;
+    border-radius: 30px 30px 0px 30px;
+}
+
+
+.card{
+    height: 40vh;
+    display:flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+.c1{
+    width: 30%;
+    height: 30vh;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.l{
+    width: 50%;height: 100%;
+}
+.l i{
+    font-size: 100px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 50px;
+    color: rgb(255, 166, 0);
+    text-shadow: 1px 1px 1px black;
+}
+.r{
+    width: 50%;
+    height: 100%;
+}
+.r a{
+    color: rgb(199, 136, 1);
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    font-size: 25px;
+}
+.r h6{
+    text-align: left;
+}
+.r h2:hover{
+    color: rgb(199, 136, 1);
+}
+.r a:hover{
+    color: black;
+}
+
+.article{
+    height: 60vh;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.bottom{
+    width: 70%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.leftc{
+    width: 50%;
+}
+.rightc{
+    width: 50%;
+    background-position: center;
+    background-size: 98%;
+    background-repeat: no-repeat;
+    transition: 0.50s;
+    position: relative;
+}
+.screen{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(141, 128, 128);
+    opacity:0;
+    transition: 0.8
+    0s;
+}
+.screen h1{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    text-shadow: 1px 1px 1px black;
+}
+.screen p{
+    color: white;
+    text-align: center;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-shadow: 1px 1px 1px black;
+}
+.leftc h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.leftc h5{
+    width: 90%;
+    text-align: justify;
+}
+.rightc:hover{
+    background-size: 100%;
+    transition: 0.50s;
+}
+.rightc:hover .screen{
+    opacity: 1;
+    transition: 0.80s;
+}
+section{
+    width: 100%;
+    margin: auto;
+    height: 70vh;
+    margin-bottom: 50px;
+    position: relative;
+}
+.trans{
+    width: 50%;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.trans h1{
+    text-align: center;
+    font-size: 2.5em;
+    color:white;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 50px;
+}
+.trans h3{
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+}
+.trans button{
+    width: 30%;
+    height: 50px;
+    margin-left: 35%;
+    margin-top: 80px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(255, 209, 5);
+    border: none;
+}
+
+.trans button:hover{
+    color: white;
+    background-color: rgb(199, 136, 1);
+}
+.trans .social a {
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 5px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+.trans .social a  i{
+    color: black;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.trans .social {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.social a:hover{
+    animation: rotate 5s  ;
+    animation-direction: alternate;
+    background-color: red;
+}
+.social a:hover i{
+    color: white;
+}
+
+.social{
+    width: 50%;
+    height: 10vh;
+    margin: auto;
+}
+
+
+
+@keyframes rotate {
+    0%{
+    transform: rotateZ(0deg);
+    }
+    20%{
+        transform: rotateZ(20deg);
+    }
+
+    40%{
+        transform: rotateZ(40deg);
+    }
+
+    80%{
+        transform: rotateZ(80%);
+    }
+
+    100%{
+    transform: rotateZ(360deg);
+    }
+}
+footer {
+    height: 40px;
+    background-color:rgb(199, 136, 1);
+}
+footer h4{
+    color: white;
+    text-align: center;
+    display: block;
+    text-shadow: 1px 1px 1px black;
+    padding: 10px 0px;
+}
