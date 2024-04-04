@@ -1,2 +1,3 @@
 # Drive-School-
-Example  Drive school small web site  created with Django 
+Example  Drive school small website  created with Django 
+![Uploading Test image 1.jpg…]()
